@@ -21,7 +21,7 @@ const Sqrt = () => {
             return;
         }
 
-        let url = 'http://localhost:3000/find';
+        let url = 'https://sqrt-using-express-backend.onrender.com/find';
         let data = {params:{number:num}};
 
         axios.get(url,data)
